@@ -1,7 +1,7 @@
 {
     "$schema": "https://typedoc.org/schema.json",
     "containerUser": "ubuntu",
-    "build": {"dockerfile": "Dockerfile"},
+    "build": {"dockerfile": "../Dockerfile"},
     "customizations": {
         "vscode": {
             "extensions": [
