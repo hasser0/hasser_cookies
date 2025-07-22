@@ -1,0 +1,35 @@
+{
+    "$schema": "https://beta.frontmatter.codes/frontmatter.schema.json",
+    "build": {
+        "dockerfile": "../Dockerfile"
+    },
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "charliermarsh.ruff",
+                "ms-python.python",
+                "ms-python.debugpy",
+                "ms-python.vscode-pylance",
+            ],
+            "settings": {
+                "ruff.organizeImports": true,
+                "ruff.nativeServer": "on",
+                // Languages
+                "[python]": {
+                    "editor.formatOnSave": true,
+                    "editor.defaultFormatter": "charliermarsh.ruff",
+                    "editor.codeActionsOnSave": {
+                        "source.fixAll": "always",
+                        "source.organizeImports": "always"
+                    }
+                },
+                "[json]": {
+                    "editor.tabSize": 2
+                },
+                "[terraform]": {
+                    "editor.tabSize": 2
+                }
+            }
+        }
+    }
+}

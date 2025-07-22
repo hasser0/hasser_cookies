@@ -1,0 +1,18 @@
+{
+    "project_name": "Scala project",
+    "__project_slug": "{{ cookiecutter.project_name|lower|replace(' ', '_') }}",
+    "scala_version": [
+        "3.6.4",
+        "3.5.2",
+        "3.4.3",
+        "3.3.6",
+        "3.2.2",
+        "3.1.3",
+        "3.0.2",
+        "2.13.16",
+        "2.12.20",
+        "2.11.12",
+        "2.10.7"
+    ],
+    "__folder_name": "static_folder_name"
+}

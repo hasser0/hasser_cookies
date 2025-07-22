@@ -1,0 +1,13 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "{{ cookiecutter.__project_slug }}"
+version = "0.0.1"
+dependencies = []
+requires-python = ">=3.8"
+description = "Description"
+
+[project.scripts]
+main-cli = "{{ cookiecutter.__project_slug }}:main"
