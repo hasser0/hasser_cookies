@@ -1,6 +1,6 @@
 {
     "$schema": "https://typedoc.org/schema.json",
-    "image": "sbtscala/scala-sbt:graalvm-ce-22.3.3-b1-java17_1.11.1_2.13.16",
+    "image": "sbtscala/scala-sbt:graalvm-community-21.0.2_1.10.10_2.13.16",
     "customizations": {
         "vscode": {
             "extensions": [
