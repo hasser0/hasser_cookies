@@ -1,13 +1,16 @@
 {
     "$schema": "https://typedoc.org/schema.json",
-    "image": "sbtscala/scala-sbt:graalvm-community-21.0.2_1.10.10_2.13.16",
+    "build": {
+        "dockerfile": "Dockerfile",
+    },
+    "postStartCommand": "cs setup -y && cs install scala:{{ cookiecutter.scala_version }}",
     "customizations": {
         "vscode": {
             "extensions": [
                 "scalameta.metals",
                 "scala-lang.scala",
                 "oderwat.indent-rainbow",
-                "shardulm94.trailing-spaces",
+                "shardulm94.trailing-spaces"
             ],
             "settings": {
                 "[scala]": {
@@ -18,5 +21,5 @@
                 },
             }
         }
-    }
+    },
 }
