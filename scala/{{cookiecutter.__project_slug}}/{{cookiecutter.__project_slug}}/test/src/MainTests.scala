@@ -4,7 +4,7 @@ import utest._
 object MainTests extends TestSuite {
   def tests = Tests {
     test("msg") {
-      val result = Main.hello()
+      val result = Main.msg()
       assert(result == "Hello world")
       result
     }
