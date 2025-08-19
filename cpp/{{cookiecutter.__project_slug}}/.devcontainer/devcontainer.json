@@ -8,6 +8,7 @@
             "extensions": [
                 "ms-vscode.cpptools",
                 "ms-vscode.cmake-tools",
+                "vadimcn.vscode-lldb",
                 "oderwat.indent-rainbow",
                 "shardulm94.trailing-spaces"
             ],
