@@ -4,7 +4,7 @@ set(SOURCES
     src/hello.cpp
     src/main.cpp
 )
-add_executable({{ cookiecutter.__project_slug }} $SOURCES)
+add_executable({{ cookiecutter.__project_slug }} ${SOURCES})
 
 target_include_directories({{ cookiecutter.__project_slug }}
     PRIVATE
