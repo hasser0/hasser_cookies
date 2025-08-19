@@ -1,10 +1,10 @@
 cmake_minimum_required(VERSION 3.5)
-project({{__project_slug}})
+project({{ cookiecutter.__project_slug }})
 set(SOURCES
     src/hello.cpp
     src/main.cpp
 )
-add_executable({{__project_slug}} $SOURCES)
+add_executable({{ cookiecutter.__project_slug }} $SOURCES)
 
 target_include_directories(hello_headers
     PRIVATE
