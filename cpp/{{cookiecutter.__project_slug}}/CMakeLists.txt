@@ -6,7 +6,7 @@ set(SOURCES
 )
 add_executable({{ cookiecutter.__project_slug }} $SOURCES)
 
-target_include_directories(hello_headers
+target_include_directories({{ cookiecutter.__project_slug }}
     PRIVATE
         ${PROJECT_SOURCE_DIR}/include
 )
