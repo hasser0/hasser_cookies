@@ -1,0 +1,32 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Run {{ cookiecutter.__project_slug }}",
+            "command": "mill {{ cookiecutter.__project_slug }}",
+            "type": "shell",
+            "presentation": {
+                "reveal": "always"
+            },
+            "group": "build"
+        },
+        {
+            "label": "Compile {{ cookiecutter.__project_slug }}",
+            "command": "mill {{ cookiecutter.__project_slug }}.compile",
+            "type": "shell",
+            "presentation": {
+                "reveal": "always"
+            },
+            "group": "build"
+        },
+        {
+            "label": "Test {{ cookiecutter.__project_slug }}",
+            "command": "mill {{ cookiecutter.__project_slug }}.test",
+            "type": "shell",
+            "presentation": {
+                "reveal": "always"
+            },
+            "group": "test"
+        }
+    ]
+}
