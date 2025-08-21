@@ -7,6 +7,7 @@
     "customizations": {
         "vscode": {
             "extensions": [
+                "scalameta.metals",
                 "scala-lang.scala",
                 "oderwat.indent-rainbow",
                 "shardulm94.trailing-spaces"
