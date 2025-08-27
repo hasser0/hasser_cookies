@@ -1,4 +1,12 @@
 {
     "project_name": "Cpp project",
-    "__project_slug": "{{ cookiecutter.project_name|lower|replace(' ', '_') }}"
+    "__project_slug": "{{ cookiecutter.project_name|lower|replace(' ', '_') }}",
+    "cxx_standard": [
+      "11",
+      "14",
+      "17",
+      "20",
+      "23",
+    ]
+
 }

@@ -2,7 +2,7 @@
     "version": "2.0.0",
     "tasks": [
         {
-            "label": "Run {{ cookiecutter.__project_slug }}",
+            "label": "run",
             "command": "mill {{ cookiecutter.__project_slug }}",
             "type": "shell",
             "presentation": {
@@ -11,7 +11,7 @@
             "group": "build"
         },
         {
-            "label": "Compile {{ cookiecutter.__project_slug }}",
+            "label": "build",
             "command": "mill {{ cookiecutter.__project_slug }}.compile",
             "type": "shell",
             "presentation": {
@@ -20,7 +20,7 @@
             "group": "build"
         },
         {
-            "label": "Test {{ cookiecutter.__project_slug }}",
+            "label": "test",
             "command": "mill {{ cookiecutter.__project_slug }}.test",
             "type": "shell",
             "presentation": {
