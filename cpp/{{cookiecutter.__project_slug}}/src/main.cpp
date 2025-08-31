@@ -1,7 +1,6 @@
-#include "hello.h"
+#include "iostream"
 
 int main() {
-    Hello hi;
-    hi.print();
+    std::cout << "Hello\n";
     return 0;
 }

@@ -5,31 +5,18 @@
             "name": "debug",
             "displayName": "debug",
             "generator": "Unix Makefiles",
-            "binaryDir": "${sourceDir}/build/debug",
+            "binaryDir": "${sourceDir}/build",
             "cacheVariables": {
                 "CMAKE_BUILD_TYPE": "Debug"
-            }
-        },
-        {
-            "name": "release",
-            "displayName": "release",
-            "inherits": "debug",
-            "binaryDir": "${sourceDir}/build/release",
-            "cacheVariables": {
-                "CMAKE_BUILD_TYPE": "Release"
+                "CMAKE_EXPORT_COMPILE_COMMANDS": "TRUE"
             }
         }
     ],
     "buildPresets": [
         {
-            "name": "debug build",
-            "displayName": "debug build",
+            "name": "debugb",
+            "displayName": "debugb",
             "configurePreset": "debug"
-        },
-        {
-            "name": "release build",
-            "displayName": "release build",
-            "configurePreset": "release"
         }
     ]
 }
