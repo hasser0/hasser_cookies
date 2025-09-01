@@ -1,5 +1,5 @@
 ThisBuild / version := "0.1.0"
-ThisBuild / scalaVersion := "{{cookiecutter.__project_slug}}"
+ThisBuild / scalaVersion := "{{cookiecutter.scala_version}}"
 
 
 lazy val {{cookiecutter.__project_slug}} = project
