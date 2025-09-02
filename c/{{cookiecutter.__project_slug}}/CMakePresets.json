@@ -1,0 +1,22 @@
+{
+    "version": 10,
+    "configurePresets": [
+        {
+            "name": "debug",
+            "displayName": "debug",
+            "generator": "Unix Makefiles",
+            "binaryDir": "${sourceDir}/build",
+            "cacheVariables": {
+                "CMAKE_BUILD_TYPE": "Debug",
+                "CMAKE_EXPORT_COMPILE_COMMANDS": "TRUE"
+            }
+        }
+    ],
+    "buildPresets": [
+        {
+            "name": "debugb",
+            "displayName": "debugb",
+            "configurePreset": "debug"
+        }
+    ]
+}
